@@ -1,2 +1,6 @@
-# Web-Scraping-Amazon
-Este estudo se dedica à coleta e análise de dados sobre placas de vídeo, obtidos diretamente do site Amazon através da técnica de web scraping.
+```
+virtualenv -p python3.9 venv
+source venv/bin/activate
+pip install -r requirements.txt
+scrapy crawl amazon
+```
